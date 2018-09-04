@@ -9,7 +9,7 @@ author: aliuly
 
 commands:
   manyworlds:
-    description: Manage worlds
+    description: Manage Worlds
     usage: "/mw <help|sub-cmd> [options]"
     permission: mw.cmds
     aliases: [mw]
@@ -17,25 +17,25 @@ commands:
 permissions:
   mw.cmds:
     default: true
-    description: "Allow all the ManyWorlds functionality"
+    description: ""
   mw.cmd.tp:
     default: op
-    description: "Allows users to travel to other worlds"
+    description: ""
   mw.cmd.tp.others:
     default: op
-    description: "Allows users to make others travel to other worlds"
+    description: ""
   mw.cmd.ls:
     default: op
-    description: "Allows users to list worlds"
+    description: ""
   mw.cmd.world.create:
     default: op
-    description: "Allows users to create worlds"
+    description: ""
   mw.cmd.world.load:
     default: op
-    description: "Allows users to load worlds"
+    description: ""
   mw.cmd.lvdat:
     default: op
-    description: "Manipulate level.dat"
+    description: ""
   mw.cmd.default:
     default: op
-    description: "Changes default world"
+    description: ""
